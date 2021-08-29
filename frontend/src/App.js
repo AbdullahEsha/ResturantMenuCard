@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Resturent from './Component/Basics/Resturent';
 
 const App = () => {
-  return (
-    <div>
-      hellow world!!
-    </div>
-  )
+  return <Resturent />;
 }
 
-export default App
+export default App;
